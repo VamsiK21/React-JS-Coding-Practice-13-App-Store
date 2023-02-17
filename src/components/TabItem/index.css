@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.list-container {
+  list-style-type: none;
+}
+
+.tab-btn {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  border-bottom: 1px solid #7b8794;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: #7b8794;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-btn {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.active-tab {
+  color: #2563eb;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .active-tab {
+    padding-bottom: 20px;
+  }
+}
